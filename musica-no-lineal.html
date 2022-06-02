@@ -1,78 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="imagen/taomi.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
-    <script src="https://site-assets.fontawesome.com/releases/v6.1.1/js/all.js" data-auto-add-css="false"
-      data-auto-replace-svg="false"></script>
-    <title>Ch Silvosa</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Ch silvosa</title>
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+  <script src="https://site-assets.fontawesome.com/releases/v6.1.1/js/all.js" data-auto-add-css="false"
+    data-auto-replace-svg="false"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
 
 <body>
-  <header>
-    <img src="./imagen/logo.png" class="logo" alt="Logo" /> 
-    <nav>
-      <ul id="navegable">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="musica.html">Música</a></li>
-        <li><a href="videos.html">Videos</a></li>
-        <li><a href="musica-no-lineal.html">Música No Lineal</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
+  <header class="row">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <img src="./imagen/logo.png" class="logo" alt="Logo" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="musica.html">Música</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="videos.html">Videos</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="musica-no-lineal.html">Música No Lineal</a>
+            </li>
+            <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+          </ul>
+
+        </div>
+      </nav>
+
+
   </header>
 
-
-  <!--MAS ADELANTE VOY A PONER OTRO VIDEO MAS-->
-
-
-
-
-
-
-
-
-    <div class="videojuego">
-      <section>
-        <h2>Musica para Video Juegos</h2>
-        <video src="./video/himno.mp4" controls> </video>
-    
-      </section>
+  <main class="mainTienda">
+    <div class="mt-5">
+      <p class="pMain col-12 text-center">
+        <span> Creacion para publicidades y videojuegos </span> <br> Composición Musical para Audiovisuales exclusiva y
+        original<br>
+        basada en la idea del cliente
+      </p>
     </div>
- 
-    <footer class="pie-pagina">
-      <div class="grupo-1">
-        <div class="box">
-          <h2>SOBRE NOSOTROS</h2>
-          <p>Pianist / Composer / Producer
-            Love film scoring and Video-games music</p>
-       
-        </div>
-        <div class="box">
-          <h2>Encontrame en las siguientes redes</h2>
-          <div class="red-social">
-       
-            <a href="https://open.spotify.com/artist/6AdvNzqud06qGUmaH0Nqzq?si=j8q-fSW8Ry2nDTo0gDhchg" class="spoti"  target="_blank"><i class="fa-brands fa-spotify"></i></a>
-            <a href="https://soundcloud.com/silvosa-taomi/tracks" class="sound" target="_blank"><i class="fa-brands fa-soundcloud"></i></a>
-            <a href="https://www.linkedin.com/in/christian-silvosa-82b8811b0/" class="linke"target="_blank"><i class="fa-brands fa-linkedin"></i>
-            <a href="https://www.youtube.com/channel/UClUO_R4nzjdSfMq7pHcQ6kw" class="yout" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://www.facebook.com/christian.silvosa/" class="face" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/ta.o.mi/" class="inst" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-  
-  
-          </div>
-        </div>
+    <div class="row">
+      <h2>Videojuegos</h2>
+      <p class="col-12"> sistemas unity & unreal </p>
+      <div class="embed-responsive embed-responsive-16by9 col-4">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bkJ8nYYe87M"></iframe>
       </div>
-      <div class="grupo-2">
-        <small>&copy; 2021 <b>TiTi Code </b> - Todos los Derechos Reservados.</small>
+      <div class="embed-responsive embed-responsive-16by9 col-4">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2jjxZF2TsPs"></iframe>
       </div>
-  
-    </footer>
+      <div class="embed-responsive embed-responsive-16by9 col-4">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dT0mQMvxzlA"></iframe>
+      </div>
+    </div>
 
+    <div class="row">
+      <h2> Publicidades</h2>
+      <p class="col-12">Creacion de obra completa </p>
+      <div class="embed-responsive embed-responsive-16by9 col-4">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bkJ8nYYe87M"></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9 col-4">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2jjxZF2TsPs"></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9 col-4">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dT0mQMvxzlA"></iframe>
+      </div>
+    </div>
+  </main>
+
+
+  <div class="container-fluid p-2"></div>
+  <div class="row p-5 bg-primary text-white">
+    <div class="col-xs-12 col-md col-lg-3">
+      <p class="h3"> Ch Silvosa </p>
+    </div>
+    <div class="col-xs-12 col-md col-lg-3">
+      <p class="h5"> Clases </p>
+      <p class="h6"> piano</p>
+      <p class="h6"> guitarra</p>
+      <p class="h6"> bandoneon</p>
+    </div>
+    <div class="col-xs-12 col-md col-lg-3">
+      <p class="h5"> Pedidos </p>
+      <p class="h6"> pistas</p>
+      <p class="h6"> obras</p>
+      <p class="h6"> audiosvisual</p>
+    </div>
+    <div class="col-xs-12 col-md col-lg-3">
+
+      <div class="col-xs-12 col-md col-lg-3">
+        <p class="h5"> Contactos </p>
+        <p class="h6"> chsilvosa@gmail.com</p>
+        <p class="h6"> olasmusic@gmail.com</p>
+        <p class="h6"> claseschsil@gmail.com</p>
+
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.j"></script>
 </body>
 
 </html>

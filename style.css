@@ -463,52 +463,14 @@ textarea {
     grid-row: span 2;
   }
 }
-/*texto de costado
 
-.invert {
-  font-size: 100px;
-  margin: 0;
-   writing-mode: vertical-lr;
-  text-align: center;
-  line-height: .9;
-  width: 20%;
-}
-
-.rotate {
-   transform: rotate(180deg);
-}
-
-.rotate{
-  display: grid;
-  height: 100vh;
-  justify-content: center;
-  align-content: center;
-  grid-template-columns: max-content max-content;
-}
-*/
-
-/*nuevo index
-.containerFlex {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
-    .div3 { grid-area: 2 / 1 / 3 / 3; }
-*/
-
-/*agregado mas animaciones*/
 
 :root {
   --background: #0a0a43;
   --color: #FAFAFA;
 }
 
-.containertext {
+.containertext1 {
   color: var(--color);
   font-size: 1.5rem;
   display: flex;
@@ -608,7 +570,7 @@ textarea {
 
 .pic-ctn > img {
   position: absolute;
-  width: 80%;
+  width: 60%;
   left: calc(30% - 100px);
   opacity: 0;
   animation: display 10s infinite;
