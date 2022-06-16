@@ -1,0 +1,12 @@
+.nav-item {
+	a {
+		&:hover {
+			color: $bg-aqua;
+		}
+	}
+}
+.logo {
+	height: auto;
+	width: 100%;
+	max-width: 180px;
+}
