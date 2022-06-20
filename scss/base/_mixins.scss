@@ -4,3 +4,7 @@
     align-items: $align;
 }
 
+@mixin tamaño ($w, $h){
+    width: $w;
+    height: $h;
+}

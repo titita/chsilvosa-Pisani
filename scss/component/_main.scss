@@ -1,4 +1,5 @@
 @import "../base/listas";
+@import "../base/mixins";
 .containerFlex {
 	display: flex;
 	margin-bottom: 30px;
@@ -46,8 +47,7 @@
 		background-image: url(../imagen/nota3.webp);
 	}
 	.card-body {
-		width: 100%;
-		height: 230px;
+		@include tamaño (100px, 230px);
 		border-radius: 8px;
 		overflow: hidden;
 		text-align: center;
@@ -82,11 +82,10 @@
 	--color: #FAFAFA;
 }
 .containertext1 {
+	@include display (flex, center, center);
 	color: var(--color);
 	font-size: 1.5rem;
-	@extend %display;
 	flex-direction: column;
-	align-items: center;
 	background: var(--background);
 	width: 100%;
 }

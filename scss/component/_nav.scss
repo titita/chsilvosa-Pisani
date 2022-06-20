@@ -1,4 +1,5 @@
 @import "../base/listas";
+@import "../base/mixins";
 .nav-item {
 	a {
 		&:hover {
@@ -7,7 +8,6 @@
 	}
 }
 .logo {
-	height: auto;
-	width: 100%;
+	@include tamaño (100%, auto);
 	max-width: 180px;
 }

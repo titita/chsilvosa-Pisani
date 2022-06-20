@@ -1,4 +1,5 @@
 @import "../base/listas";
+@import "../base/mixins";
 
 .pie-pagina {
 	width: 100%;
@@ -25,10 +26,9 @@
 		}
 		.red-social {
 			a {
+				@include tamaño (45px, 45px);
 				display: inline-block;
 				text-decoration: none;
-				width: 45px;
-				height: 45px;
 				line-height: 45px;
 				color: nth($colores, 7);
 				margin-right: 10px;
