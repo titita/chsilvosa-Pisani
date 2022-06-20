@@ -1,3 +1,4 @@
+@import "../base/listas";
 
 .pie-pagina {
 	width: 100%;
@@ -13,12 +14,12 @@
 		text-align: center;
 		.box {
 			h2 {
-				color: #fff;
+				color: nth($colores, 7);
 				margin-bottom: 25px;
 				font-size: 20px;
 			}
 			p {
-				color: #efefef;
+				color: nth($colores, 9);
 				margin-bottom: 10px;
 			}
 		}
@@ -29,13 +30,13 @@
 				width: 45px;
 				height: 45px;
 				line-height: 45px;
-				color: #fff;
+				color: nth($colores, 7);
 				margin-right: 10px;
 				background-color: #0d2033;
 				text-align: center;
 				transition: all 300ms ease;
 				&:hover {
-					color: aqua;
+					color:nth($colores, 2);
 				}
 			}
 		}
@@ -44,7 +45,7 @@
 		background-color: #0a1a2a;
 		padding: 15px 10px;
 		text-align: center;
-		color: #fff;
+		color:nth($colores, 7);
 		width: 100%;
 		small {
 			font-size: 15px;

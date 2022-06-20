@@ -1,4 +1,4 @@
-
+@import "../base/listas";
 .containerFlex {
 	display: flex;
 	margin-bottom: 30px;
@@ -37,13 +37,13 @@
 		margin: 0px 10px 0px 10px;
 	}
 	.card-item#id-one {
-		background-image: url(../imagen/album.png);
+		background-image: url(../imagen/album.webp);
 	}
 	.card-item#id-two {
-		background-image: url(../imagen/mutek.png);
+		background-image: url(../imagen/mutek.webp);
 	}
 	.card-item#id-t {
-		background-image: url(../imagen/nota3.png);
+		background-image: url(../imagen/nota3.webp);
 	}
 	.card-body {
 		width: 100%;
@@ -73,7 +73,7 @@
 		a {
 			font-weight: 500;
 			text-decoration: none;
-			color: #d9dbfd;
+			color: nth($colores, 10);
 		}
 	}
 }

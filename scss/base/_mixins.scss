@@ -1,0 +1,6 @@
+@mixin display ($valor, $justify, $align){
+    display: $valor;
+    justify-content: $justify;
+    align-items: $align;
+}
+

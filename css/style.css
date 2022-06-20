@@ -110,7 +110,7 @@
       text-align: center;
       transition: all 300ms ease; }
       .pie-pagina .grupo-1 .red-social a:hover {
-        color: aqua; }
+        color: #00ffff; }
   .pie-pagina .grupo-2 {
     background-color: #0a1a2a;
     padding: 15px 10px;
@@ -147,6 +147,7 @@ img:nth-child(5) {
   .tall {
     grid-row: span 2; } }
 
+/*@import "/scss/base/mixins";*/
 .form {
   position: relative;
   width: 100%;
@@ -160,7 +161,7 @@ img:nth-child(5) {
     height: 100%;
     left: 0;
     top: 0;
-    background: url("../imagen/contacto.jpg") no-repeat center;
+    background: url("../imagen/contacto.webp") no-repeat center;
     background-size: cover;
     filter: blur(50px);
     z-index: -1; }
@@ -190,7 +191,7 @@ img:nth-child(5) {
       background-color: #1e0473; }
 
 .left {
-  background: url("../imagen/contacto.jpg") no-repeat center;
+  background: url("../imagen/contacto.webp") no-repeat center;
   background-size: cover;
   height: 100%; }
 
@@ -201,7 +202,7 @@ img:nth-child(5) {
   width: 100%;
   border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
-  background-color: rgba(230, 230, 230, 0.6);
+  background-color: #E6E6E6;
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
   margin-bottom: 22px;
@@ -263,11 +264,11 @@ textarea {
     background-position: center center;
     margin: 0px 10px 0px 10px; }
   .cardSection .card-item#id-one {
-    background-image: url(../imagen/album.png); }
+    background-image: url(../imagen/album.webp); }
   .cardSection .card-item#id-two {
-    background-image: url(../imagen/mutek.png); }
+    background-image: url(../imagen/mutek.webp); }
   .cardSection .card-item#id-t {
-    background-image: url(../imagen/nota3.png); }
+    background-image: url(../imagen/nota3.webp); }
   .cardSection .card-body {
     width: 100%;
     height: 230px;
@@ -335,7 +336,7 @@ textarea {
       --glitch-translate: -8px; }
 
 .nav-item a:hover {
-  color: cyan; }
+  color: #00ffff; }
 
 .logo {
   height: auto;
@@ -344,7 +345,7 @@ textarea {
 
 .titulovideo {
   text-shadow: 1px 2px 2px;
-  color: steelblue;
+  color: nth #1e0473, #00ffff, #4682b4, #000013, #E6E6E6, rgba(0, 0, 0, 0.1), #fff, #279aae, #efefef, #d9dbfd, 3;
   text-align: center; }
 
 .video {

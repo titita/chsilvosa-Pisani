@@ -1,6 +1,7 @@
+@import "../base/listas";
 .titulovideo {
 	text-shadow: 1px 2px 2px;
-	color: $bg-steelblue; 
+	color: nth ($colores, 3); 
 	text-align: center;
 }
 .video {

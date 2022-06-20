@@ -1,7 +1,8 @@
+@import "../base/listas";
 .nav-item {
 	a {
 		&:hover {
-			color: $bg-aqua;
+			color: nth($colores, 2);
 		}
 	}
 }
