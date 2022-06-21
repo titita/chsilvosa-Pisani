@@ -1,8 +1,4 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@100&family=Roboto+Flex:opsz,wght@8..144,300&family=Water+Brush&display=swap";
-.cardSection {
-  display: flex;
-  justify-content: center; }
-
 /*NUEVO CARROUSEL*/
 @keyframes "display" {
   0% {
@@ -154,7 +150,7 @@ img:nth-child(5) {
   width: 100%;
   height: 100%;
   position: relative;
-  padding: 20px 100px; }
+  padding: 20px 40px; }
   .form:after {
     width: 100%;
     height: 100%;
@@ -255,6 +251,8 @@ textarea {
     animation: display 10s infinite; }
 
 .cardSection {
+  display: flex;
+  justify-content: center;
   width: 100%;
   flex-direction: row;
   margin: auto;
